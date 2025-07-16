@@ -179,7 +179,7 @@ You'll need keys from these services:
 2. **Tavily API** - For product search and market data
    - Get your key at [Tavily](https://tavily.com/)
 
-3. **Mem0** (Optional) - For user memory and personalization
+3. **Mem0** - For user memory and personalization
    - Register at [Mem0](https://mem0.ai/)
 
 4. **Appwrite** (Optional) - For database and file storage
@@ -204,7 +204,7 @@ npm run build
 ```
 
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
