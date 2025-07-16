@@ -4,21 +4,21 @@ SmartScape is an intelligent platform designed to simplify home transformation a
 
 ## Functionalities 
 
-### Cultivate Mode (Making your room cozy)
+### Buy Mode 
 - **Style Analysis:**: Upload photo, get smart decor suggestions. (Computer vision, personalized design.)
 - **Product Search**:  AI finds furniture/decor relevant to suggestions using Tavily API
 - **Consultant**:  Get real-time, personalized home decoration advice using NPL
 - **Memory System**: Uses Mem0 to learn and recall your design preferences, ensuring continuous, evolving recommendations.
 - **Wishlist**: Keep track of favorite items and your room's transformation.
 
-### 📦 Sell Mode - Declutter Your Space
+### Sell Mode
 - **Video Processing**:  Upload a room video, AI spots sellable items.
 - **Item Recognition**: Get descriptions and timestamps for recognized items.
 - **Pricing**: AI estimates the best market value for your items.
 - **Marketplace**:  Automatically posts items to selling platforms like UseThis
 - **Listing Generation**:  Creates compelling descriptions and optimized photos.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -85,7 +85,7 @@ SmartScape is an intelligent platform designed to simplify home transformation a
    ```
    The app will be available at `http://localhost:5173`
 
-## 🏗️ Architecture
+## Architecture
 
 ### Frontend (React + TypeScript)
 - **Framework**: React 19 with TypeScript
@@ -101,7 +101,7 @@ SmartScape is an intelligent platform designed to simplify home transformation a
 - **Database**: Appwrite for data storage
 - **Video Processing**: OpenCV for frame extraction and analysis
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Buy Mode
 - `POST /api/buy/analyze-room` - Analyze uploaded room photo
@@ -115,7 +115,7 @@ SmartScape is an intelligent platform designed to simplify home transformation a
 - `POST /api/sell/post-to-marketplace` - Post items to marketplace
 - `PUT /api/sell/update-item` - Edit item details
 
-## 🤖 AI Services
+## AI Services
 
 ### Nebius AI (DeepSeek-V3)
 - Room analysis and object detection
@@ -137,7 +137,7 @@ SmartScape is an intelligent platform designed to simplify home transformation a
 - Authentication and sessions
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 SmartScape.ai/
@@ -169,7 +169,7 @@ SmartScape.ai/
 └── README.md                    # This file
 ```
 
-## 🔑 Required API Keys
+## Required API Keys
 
 You'll need keys from these services:
 
@@ -185,7 +185,7 @@ You'll need keys from these services:
 4. **Appwrite** (Optional) - For database and file storage
    - Set up at [Appwrite Cloud](https://cloud.appwrite.io/)
 
-## 🚀 Deployment
+## Deployment
 
 ### Backend Deployment
 The FastAPI backend can be deployed to any cloud platform:
