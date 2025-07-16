@@ -1,0 +1,42 @@
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+pydantic==2.6.4
+
+# LLM & AI APIs
+google-generativeai==0.5.2      # Gemini
+httpx==0.27.0                   # For Nebius/DeepSeek & Tavily API calls
+openai==1.33.0                  # Optional: Claude via proxy if needed
+
+# Video processing - use headless version for server compatibility
+opencv-python-headless==4.10.0.84
+
+# Data & CSV handling - use compatible versions
+pandas==1.5.3
+numpy==1.24.3
+python-dotenv==1.0.1
+uuid==1.30
+tqdm==4.66.2
+
+appwrite
+
+# Memory tool
+mem0ai
+
+# General
+requests==2.31.0
+
+#tavily
+tavily-python
+
+# Browser automation for marketplace posting
+selenium==4.15.2
+webdriver-manager==4.0.1
+undetected-chromedriver==3.5.4
+
+# AI negotiation and scheduling
+google-calendar-api==2.0.0
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
