@@ -18,6 +18,7 @@
 - Nebius + DeepSeek V3 is then used to:
   - Analyze each item’s image
   - Automatically generate a title, price, and description for each item
+- UseThis student rental marketplace for automated posting.
 
 > You don’t need to manually describe items. The AI writes product listings automatically, similar to how eBay sellers do it manually.
 
