@@ -37,7 +37,7 @@
 
 ## Backend API Endpoints using FastAPI
 
-### 5. Buy Mode APIs
+### 4. Buy Mode APIs
 ```python
 POST /api/buy/analyze-room
 # Upload image → Nebius Vision Model analysis
@@ -52,7 +52,7 @@ POST /api/buy/purchase
 # Returns: confirmation + delivery tracking
 ```
 
-### 6. Sell Mode APIs
+### 5. Sell Mode APIs
 ```python
 POST /api/sell/upload-video
 # Upload video → OpenCV object recognition + timestamps
@@ -77,7 +77,7 @@ POST /api/sell/schedule-meetup
 # Returns: meeting confirmation
 ```
 
-### 7. AI Agent Integration
+### 6. AI Agent Integration
 ```python
 class NebiusVisionAgent:
     def analyze_room_image(self, image_data)
@@ -96,7 +96,7 @@ class SchedulerAgent:
     def schedule_meetup(self, agreement_details)
 ```
 
-### 8. External Service Integrations
+### 7. External Service Integrations
 ```python
 # Nebius AI Studio for vision models
 # Tavily API for product search + scraping
