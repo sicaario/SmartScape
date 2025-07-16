@@ -2,22 +2,6 @@
 
 SmartScape is an intelligent platform designed to simplify home transformation and asset management. It leverages AI to automate key processes, offering a streamlined experience for both interior design and decluttering.
 
-## Functionalities 
-
-### Buy Mode 
-- **Style Analysis:**: Upload photo, get smart decor suggestions. (Computer vision, personalized design.)
-- **Product Search**:  AI finds furniture/decor relevant to suggestions using Tavily API
-- **Consultant**:  Get real-time, personalized home decoration advice using NPL
-- **Memory System**: Uses Mem0 to learn and recall your design preferences, ensuring continuous, evolving recommendations.
-- **Wishlist**: Keep track of favorite items and your room's transformation.
-
-### Sell Mode
-- **Video Processing**:  Upload a room video, AI spots sellable items.
-- **Item Recognition**: Get descriptions and timestamps for recognized items.
-- **Pricing**: AI estimates the best market value for your items.
-- **Marketplace**:  Automatically posts items to selling platforms like UseThis
-- **Listing Generation**:  Creates compelling descriptions and optimized photos.
-
 ## Quick Start
 
 ### Prerequisites
@@ -85,22 +69,6 @@ SmartScape is an intelligent platform designed to simplify home transformation a
    ```
    The app will be available at `http://localhost:5173`
 
-## Architecture
-
-### Frontend (React + TypeScript)
-- **Framework**: React 19 with TypeScript
-- **Styling**: Tailwind CSS with custom design system
-- **Animations**: Framer Motion for smooth transitions
-- **Build Tool**: Vite for fast development
-
-### Backend (Python FastAPI)
-- **Framework**: FastAPI for high-performance API
-- **AI Services**: Nebius AI (DeepSeek-V3) for image analysis and text generation
-- **Search**: Tavily API for product discovery
-- **Memory**: Mem0 for user preference learning
-- **Database**: Appwrite for data storage
-- **Video Processing**: OpenCV for frame extraction and analysis
-
 ## API Endpoints
 
 ### Buy Mode
@@ -114,28 +82,6 @@ SmartScape is an intelligent platform designed to simplify home transformation a
 - `GET /api/sell/extraction-status/{job_id}` - Check processing status
 - `POST /api/sell/post-to-marketplace` - Post items to marketplace
 - `PUT /api/sell/update-item` - Edit item details
-
-## AI Services
-
-### Nebius AI (DeepSeek-V3)
-- Room analysis and object detection
-- Natural language processing for chat
-- Listing generation and pricing
-
-### Tavily API
-- Real-time product search
-- Market data and pricing information
-
-### Mem0
-- User preference learning
-- Conversation context maintenance
-- Personalized recommendations
-
-### Appwrite
-- User data and preferences storage
-- File storage for images and videos
-- Authentication and sessions
-
 
 ## Project Structure
 
@@ -202,7 +148,6 @@ Build and deploy the React frontend:
 npm run build
 # Deploy the dist/ folder to your hosting platform
 ```
-
 
 ## License
 
